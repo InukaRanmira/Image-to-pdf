@@ -40,7 +40,7 @@ SOFTWARE.
 ```
 
 ## Support
-<a href="https://t.me/sl_bot_zone">
+<a href="https://t.me/slbotzone">
    <p> Telegram </p>
   </a>
 

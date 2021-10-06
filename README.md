@@ -39,7 +39,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Support 🇮🇳
+## Support
 <a href="https://t.me/sl_bot_zone">
    <p> Telegram </p>
   </a>

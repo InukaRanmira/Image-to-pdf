@@ -29,7 +29,7 @@ This bot created by @InukaRanmira""",reply_to_message_id = message.message_id , 
             [
                 [
                     InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/slbotzone") ],
-                    [InlineKeyboardButton("Channel", url="https://t.me/sl_bot_zone") ],   
+                    [InlineKeyboardButton("Channel", url="https://t.me/szteambots") ],   
                     [InlineKeyboardButton("Deverloper", url="https://t.me/InukaRanmira") ],  
 
 

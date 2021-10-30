@@ -19,7 +19,7 @@ app = Client(
 
 LIST = {}
 
-@app.on_message(filters.command(['start']))
+@slbotzone.on_message(filters.command(['start']))
 async def start(client, message):
  await message.reply_text(text =f"""Hello {message.from_user.first_name }image to pdf bot 
 
@@ -34,7 +34,7 @@ This bot created by @InukaRanmira""",reply_to_message_id = message.message_id , 
 
 
 
-@app.on_message(filters.private & filters.photo)
+@slbotzone.on_message(filters.private & filters.photo)
 async def pdf(client,message):
  
  if not isinstance(LIST.get(message.from_user.id), list):
@@ -52,7 +52,7 @@ async def pdf(client,message):
  await ms.edit(f"{len(LIST[message.from_user.id])} image   Successful created PDF if you want add more image Send me One by one\n\n **if done click here 👉 /convert** ")
  
 
-@app.on_message(filters.command(['convert']))
+@slbotzone.on_message(filters.command(['convert']))
 async def done(client,message):
  images = LIST.get(message.from_user.id)
 
@@ -71,4 +71,4 @@ async def done(client,message):
  
  
  
-app.run()
+slbotzone.run()

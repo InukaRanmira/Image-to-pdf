@@ -2,6 +2,7 @@
     "name": "Image To Pdf Bot",
     "description": "This Bot Converting Image To Pdf ",
     "repository": "https://github.com/InukaRanmira/Image-to-pdf",
+    "logo": "https://telegra.ph/file/f4799148fe588e117f177.jpg" ,
     "keywords": ["Pdf ", "pyrogram", "telegram bot"],
     "env": {
         "Bot TOKEN": {

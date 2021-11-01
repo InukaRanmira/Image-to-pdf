@@ -44,3 +44,12 @@ SOFTWARE.
    <p> Telegram </p>
   </a>
 
+## Credits
+<a href="https://github.com/InukaRanmira">
+
+   <p> Inuka Ranmira </p>
+
+  </a>
+
+
+
